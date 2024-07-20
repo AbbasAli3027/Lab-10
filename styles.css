@@ -1,0 +1,38 @@
+/* Custom Bootstrap Theme Colors */
+:root {
+  --primary: #ff79c6;
+  --secondary: #6272a4;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+/* Additional Custom Styles */
+.hero {
+  background-image: url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  color: var(--primary);
+}
+
+.footer .social-icons a {
+  font-size: 1.5rem;
+}
